@@ -2,23 +2,59 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+>>>>>>> cabecera
 }
 
 html {
     font-size: 62.5%;
     font-family: 'Fira Sans', sans-serif;
     text-align: center;
+<<<<<<< HEAD
     background-color: #000;
 }
 
 header {
     height: 6rem;
+=======
+    background-image: linear-gradient(to bottom, #000000, #0a0808, #110f0e, #161512, #191a17);
+}
+
+header {
+    padding: 0.7rem;
+    margin: 0 auto;
+    width: 90vw;
+    height: 6rem;
+    text-align: start;
+}
+
+header p {
+    color: #FFF;
+    font-size: 1.8rem;
+>>>>>>> cabecera
 }
 
 main {
     margin: 0 auto;
+<<<<<<< HEAD
     width: 75%;
     height: auto;
+=======
+    width: 80vw;
+    height: 100vh;
+}
+
+.ejemplo {
+    display: grid;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+>>>>>>> cabecera
     border: 2px solid #FFF;
     border-radius: 3rem;
     -webkit-border-radius: 3rem;
@@ -30,6 +66,7 @@ main {
 h1 {
     font-size: 4rem;
     color: #FFF;
+<<<<<<< HEAD
     margin-top: 5rem;
 }
 
@@ -38,4 +75,11 @@ p {
     color: #FFF;
     margin-top: 6rem;
     margin-bottom: 5rem;
+=======
+}
+
+main p {
+    font-size: 3rem;
+    color: #FFF;
+>>>>>>> cabecera
 }

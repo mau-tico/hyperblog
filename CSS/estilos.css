@@ -17,8 +17,8 @@ html {
 
 header {
     padding: 0.7rem;
-    margin: auto auto;
-    width: 90%;
+    margin: 0 auto;
+    width: 90vw;
     height: 6rem;
     text-align: start;
 }
@@ -30,7 +30,7 @@ header p {
 
 main {
     margin: 0 auto;
-    width: 80%;
+    width: 80vw;
     height: 100vh;
 }
 

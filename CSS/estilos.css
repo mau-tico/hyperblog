@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    background-color: #000;
+}
+
+header {
+    height: 6rem;
+}
+
+header p {
+    color: #FFF;
+}
+
+main {
+    margin: 0 auto;
+    width: 75%;
+    height: auto;
+    border: 2px solid #FFF;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #FFF;
+    margin-top: 5rem;
+}
+
+p {
+    font-size: 3rem;
+    color: #FFF;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}

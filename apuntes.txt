@@ -174,3 +174,7 @@ Entidad	  Carácter	Descripción oficial
 
  Montar pagina web gratis en GuitHub***
 https://pages.github.com/
+
+ Recuperar lo perdido***
+git reflog  // se busca el ultimo donde todo funcionaba
+git reset --hard ad7d120 // ad7d120 esto es lo que se busco con git reflog

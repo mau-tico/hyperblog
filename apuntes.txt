@@ -1,0 +1,176 @@
+ Paleta de colores***
+https://colorhunt.co/palettes/grey
+
+ Colores Hexadecimales***
+https://htmlcolorcodes.com/color-names/
+
+ Gradientes***
+https://mycolor.space/gradient?ori=to+top&hex=%23051937&hex2=%23A8EB12&sub=1
+https://cssgradient.io/gradient-backgrounds/
+
+  HTML Referencias***
+https://htmlreference.io/
+
+  CSS Referencias***
+https://cssreference.io/
+
+  Validar codigo HTTML en Linea***
+https://validator.w3.org/
+
+ Imagenes gratis***
+https://www.pexels.com/
+https://pixabay.com/es/
+https://www.freepik.es/fotos-populares
+
+ Uso de elementos de CSS***
+https://caniuse.com
+
+**** Truco GRID*****
+display: grid;
+grid-template: repeat(2, 20px) / repeat(2, 20px);
+column-gap: 5 px 5px
+********************
+
+ Pixelaje de Pantalla**
+https://www.mydevice.io/
+
+ Escuela de Desarrollo Web***
+https://platzi.com/web/
+ 
+ Hacer imagenes mas lijeras***
+https://tinypng.com/
+https://www.verexif.com/
+
+ Grid Guia***
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+  Iconos ***
+https://icons8.com/
+
+ Prefixed***
+https://developer.mozilla.org/en-US/docs/Web/CSS/WebKit_Extensions
+
+ Editor En Linea**
+https://codepen.io/
+
+ Neomorfismo***
+https://neumorphism.io/#e0e0e0
+
+ Caracteres especiales***
+ü, é, á, í, ó, ú, ñ, Ñ, ¿, ¡, ~
+
+ Nodejs
+cmd ir a carpeta
+npm init
+code . // para llamar Visual Studio Code
+
+https://nodejs.org/es/
+node -v
+npm -v
+npm install n
+npm install -g npm@latest (instala de forma global)
+npm install -g nodemon
+npm list -g --depth 0 (Da la lista de paquetes globales)
+
+
+ Instalar paquetes en Node JS ***
+npm install moment --save ( save quiere decir que es necsesario siempre para el proyecto "En Produccion" )
+npm install moment --save-dev ( Solo para el entorno de desarrollo pero no para produccion )
+
+tambien esta esta
+npm i momment -D ( la -D quiere decir que es desarrollo )
+npm i momment -S( la -S quiere decir que es Producccion )
+
+npm outdate (para saber que paquetes estan desactualizados)
+npm update (Hace la actualizacion de paquetes)
+npm uninstall "paquete" (Elimina un paquete)
+
+ Seguridad
+npm audit
+npm audit fix
+
+
+ ReactJs ***
+npx create-react-app test
+
+ GIT**
+git init
+
+Configurar GIT
+git config --list
+git config --list --show-origin
+git config --global user.name "mau"
+git config --global user.email "mauriciorj76@gmail.com"
+
+git status
+git add index.html
+git add . // Asi agrega si hay muchos cambios
+git commit -m "Primer Commit"
+
+git log
+git log -stat
+
+Volver sobre versiones
+git show
+ ---  // estas son versiones anteriores
+ +++  // esta es la ultima versiones
+ 
+git reset c6a8a1522655aa40c9a480c522b36437f1972e0a --hard
+git reset c6a8a1522655aa40c9a480c522b36437f1972e0a --soft  //lo que este en staging sique ahi
+
+git checkout c6a8a1522655aa40c9a480c522b36437f1972e0a algo.txt   // para ver lo que habia
+git checkout master algo.txt // Regresa a lo que habia antes del checkout
+
+ Crear RAMAS***
+git branch cabecera
+git checkout cabecera  // Entro a esa nueva RAMA
+git checkout master    // Vuelvo al master
+
+git merge cabecera
+
+ Para guardar sin dar git add . y  git commit -m "bla bla bla"  ***
+git commit -am "bla bla bla"
+
+ Subir proyectos a GitHub ***
+git remote add origin https://github.com/mau-tico/hyperblog.git
+git remote /// Va a salir que dice ORIGIN
+git push origin master  // Envia a GitHub
+git pull origin master  // Trae lo que haya en GitHub
+
+ Crear LLaves ***
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
+eval $(ssh-agent -s)  // Para ver si el agente esta corriendo
+ssh-add /root/.ssh/id_rsa    // Para enlazarlo a nuestro sistema
+git remote set-url origin git@github.com:mau-tico/hyperblog.git  // Para usarlo con ssh
+
+ Ver Logs / Tags***
+git log --all --graph --decorate --oneline
+alias logGit="git log --all --graph --decorate --oneline"
+git tag -a v0.1 -m "Primera version" c6a8a15
+git push origin --tags
+git show-ref --tags // ver los tags
+gitk  // muestra modo ventana
+
+// Para traer un proyecto no se inicializa github
+git clone https.....
+
+
+*******************
+Entidad	  Carácter	Descripción oficial
+&ntilde;	ñ	    latin letter n with tilde
+&Ntilde;	Ñ	    latin capital n letter with tilde
+&aacute;	á	    a acute
+&eacute;	é	    e acute
+&iacute;	í	    i acute
+&oacute;	ó	    o acute
+&uacute;	ú	    u acute
+&Aacute;	Á	    A acute
+&Eacute;	É	    E acute
+&Iacute;	Í	    I acute
+&Oacute;	Ó	    O acute
+&Uacute;	Ú	    U acute
+&euro;	€	euro
+*******************
+
+ Montar pagina web gratis en GuitHub***
+https://pages.github.com/

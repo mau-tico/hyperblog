@@ -178,3 +178,8 @@ https://pages.github.com/
  Recuperar lo perdido***
 git reflog  // se busca el ultimo donde todo funcionaba
 git reset --hard ad7d120 // ad7d120 esto es lo que se busco con git reflog
+
+ GREP saber cual palabra y que linea esta usada***
+git grep color
+git grep -n color //linea
+git grep -c color // cuantas veces se uso color
